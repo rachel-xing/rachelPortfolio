@@ -1,0 +1,29 @@
+@import "../../_globalColor";
+
+.certs-header {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.certs-body-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1380px) {
+  .certs-header {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certs-body-div {
+    flex-direction: column;
+  }
+
+  .certs-header {
+    font-size: 30px;
+  }
+}
