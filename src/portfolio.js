@@ -23,7 +23,7 @@ const greeting = {
   username: "Rachel Xing",
   title: "Hi all, I'm Rachel",
   subTitle: emoji(
-    "I'm a student with a strong interest in software development, actively seeking entry-level opportunities to apply my skills and grow as a developer.Passionate about building meaningful applications and continuously learning new technologies.",
+    "I'm a new graduate with a strong interest in software development, actively seeking entry-level opportunities to apply my skills and grow as a developer.Passionate about building meaningful applications and continuously learning new technologies.",
   ),
   resumeLink:
     "https://docs.google.com/document/d/1fWL48p0NGG-r4negdII3301UQk-_NliRyJ1LE1b4rm0/edit?tab=t.0", // Set to empty to hide the button
