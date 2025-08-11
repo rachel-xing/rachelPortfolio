@@ -136,8 +136,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Design",
+      progressPercentage: "90%"
     },
     {
       Stack: "Backend",
@@ -172,29 +172,29 @@ const workExperiences = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Personal Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pokemon.png"),
+      projectName: "Pokemon Trainer Management System",
+      projectDesc: "This is a full-stack application that admin can manage the trainers developed using springboot and react ",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Github Link",
+          url: "https://github.com/rachel-xing/Pokemon-Trainer-Management"
         }
-        //  you can add extra buttons here.
+
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/vue.png"),
+      projectName: "E-Commerce Backend Management System",
+      projectDesc: "This is an E-Commerce backend management system developed using Vue.js",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Github Link",
+          url: "https://github.com/rachel-xing/Vue2-shop-backend-management-system"
         }
       ]
     }
@@ -230,7 +230,7 @@ const contactInfo = {
   title: emoji("Contact Me"),
   subtitle:
     "I’m actively seeking entry-level positions in software development. With a background in web development and experience in cross-cultural environments, I’m eager to contribute to meaningful projects and grow professionally.\n Feel free to get in touch — I’d be happy to connect!",
-  email_address: "xing.shan93@gmail.com"
+  email_address: "rachel.xing100@gmail.com"
 };
 
 export {
